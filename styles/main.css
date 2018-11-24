@@ -1,0 +1,77 @@
+
+/* Style class defenitions starts here */
+body {
+	font-family: sans-serif;
+}
+
+/* Calender styles */
+.calender-body {
+	width: 720px;
+	height: 720px;
+	margin: 0 auto;
+}
+
+.calender-time-column {
+	width: 100px;
+	float: left;
+	height: 100%;
+	position: relative;
+}
+
+/* Event item cell styles */
+.slot-cell {
+	height: 60px;
+	text-align: right;
+	padding-right: 15px;
+}
+
+.calender-event-column-wrapper {
+	width: 620px;
+	float: right;
+	height: 100%;
+	background-color: #f7f5f5;
+}
+
+#eventDisplayArea {
+	height: 100%;
+	padding: 0 10px 0 10px;
+}
+
+.event-item {
+	height: 60px;
+	position: absolute;
+	background-color: white;
+	width: 100%;
+	border: 0.1px #d7d7d7 solid;
+}
+
+.slot-cell span,
+.half-time {
+	font-size: 9px;
+	color: gray;
+}
+
+.row {
+	height: 100%;
+}
+
+.half-time {
+	display: inline-block;
+	padding-top: 15px;
+}
+
+.column {
+	float: left;
+	height: 100%;
+}
+
+.event-item div:first-child {
+	position: absolute;
+	height: 60px;
+	width: 5px;
+	float: left;
+}
+
+.event-item div:nth-child(2) {
+	padding: 10px 0 0 10px;
+}
